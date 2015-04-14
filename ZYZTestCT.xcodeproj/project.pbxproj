@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C56C95071ADCEDD300609722 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C95061ADCEDD300609722 /* main.m */; };
+		C56C950A1ADCEDD300609722 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C95091ADCEDD300609722 /* AppDelegate.m */; };
+		C56C950D1ADCEDD300609722 /* ZYZTestCT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C56C950B1ADCEDD300609722 /* ZYZTestCT.xcdatamodeld */; };
+		C56C95101ADCEDD300609722 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C950F1ADCEDD300609722 /* ViewController.m */; };
+		C56C95131ADCEDD300609722 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C56C95111ADCEDD300609722 /* Main.storyboard */; };
+		C56C95151ADCEDD300609722 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C56C95141ADCEDD300609722 /* Images.xcassets */; };
+		C56C95181ADCEDD300609722 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C56C95161ADCEDD300609722 /* LaunchScreen.xib */; };
+		C56C95241ADCEDD300609722 /* ZYZTestCTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C95231ADCEDD300609722 /* ZYZTestCTTests.m */; };
+		C56C952E1ADCEDE600609722 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56C952D1ADCEDE600609722 /* CoreText.framework */; };
+		C56C95311ADCEE6700609722 /* CTDislayView.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C95301ADCEE6700609722 /* CTDislayView.m */; };
+		C56C95341ADD0EBA00609722 /* CTData.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C95331ADD0EBA00609722 /* CTData.m */; };
+		C56C95371ADD0ED400609722 /* CTFrameParserConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C95361ADD0ED400609722 /* CTFrameParserConfig.m */; };
+		C56C953A1ADD0EE700609722 /* CTFrameConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C95391ADD0EE700609722 /* CTFrameConfig.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C56C951E1ADCEDD300609722 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C56C94F91ADCEDD300609722 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C56C95001ADCEDD300609722;
+			remoteInfo = ZYZTestCT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C56C95011ADCEDD300609722 /* ZYZTestCT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYZTestCT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C56C95051ADCEDD300609722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C56C95061ADCEDD300609722 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C56C95081ADCEDD300609722 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C56C95091ADCEDD300609722 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C56C950C1ADCEDD300609722 /* ZYZTestCT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZYZTestCT.xcdatamodel; sourceTree = "<group>"; };
+		C56C950E1ADCEDD300609722 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C56C950F1ADCEDD300609722 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C56C95121ADCEDD300609722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C56C95141ADCEDD300609722 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C56C95171ADCEDD300609722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C56C951D1ADCEDD300609722 /* ZYZTestCTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYZTestCTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C56C95221ADCEDD300609722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C56C95231ADCEDD300609722 /* ZYZTestCTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYZTestCTTests.m; sourceTree = "<group>"; };
+		C56C952D1ADCEDE600609722 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		C56C952F1ADCEE6700609722 /* CTDislayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTDislayView.h; sourceTree = "<group>"; };
+		C56C95301ADCEE6700609722 /* CTDislayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTDislayView.m; sourceTree = "<group>"; };
+		C56C95321ADD0EBA00609722 /* CTData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTData.h; sourceTree = "<group>"; };
+		C56C95331ADD0EBA00609722 /* CTData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTData.m; sourceTree = "<group>"; };
+		C56C95351ADD0ED400609722 /* CTFrameParserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTFrameParserConfig.h; sourceTree = "<group>"; };
+		C56C95361ADD0ED400609722 /* CTFrameParserConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTFrameParserConfig.m; sourceTree = "<group>"; };
+		C56C95381ADD0EE700609722 /* CTFrameConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTFrameConfig.h; sourceTree = "<group>"; };
+		C56C95391ADD0EE700609722 /* CTFrameConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTFrameConfig.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C56C94FE1ADCEDD300609722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56C952E1ADCEDE600609722 /* CoreText.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56C951A1ADCEDD300609722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C56C94F81ADCEDD300609722 = {
+			isa = PBXGroup;
+			children = (
+				C56C95031ADCEDD300609722 /* ZYZTestCT */,
+				C56C95201ADCEDD300609722 /* ZYZTestCTTests */,
+				C56C95021ADCEDD300609722 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C56C95021ADCEDD300609722 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C56C95011ADCEDD300609722 /* ZYZTestCT.app */,
+				C56C951D1ADCEDD300609722 /* ZYZTestCTTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C56C95031ADCEDD300609722 /* ZYZTestCT */ = {
+			isa = PBXGroup;
+			children = (
+				C56C95081ADCEDD300609722 /* AppDelegate.h */,
+				C56C95091ADCEDD300609722 /* AppDelegate.m */,
+				C56C950E1ADCEDD300609722 /* ViewController.h */,
+				C56C950F1ADCEDD300609722 /* ViewController.m */,
+				C56C95111ADCEDD300609722 /* Main.storyboard */,
+				C56C95141ADCEDD300609722 /* Images.xcassets */,
+				C56C95161ADCEDD300609722 /* LaunchScreen.xib */,
+				C56C950B1ADCEDD300609722 /* ZYZTestCT.xcdatamodeld */,
+				C56C95041ADCEDD300609722 /* Supporting Files */,
+				C56C952F1ADCEE6700609722 /* CTDislayView.h */,
+				C56C95301ADCEE6700609722 /* CTDislayView.m */,
+				C56C95321ADD0EBA00609722 /* CTData.h */,
+				C56C95331ADD0EBA00609722 /* CTData.m */,
+				C56C95351ADD0ED400609722 /* CTFrameParserConfig.h */,
+				C56C95361ADD0ED400609722 /* CTFrameParserConfig.m */,
+				C56C95381ADD0EE700609722 /* CTFrameConfig.h */,
+				C56C95391ADD0EE700609722 /* CTFrameConfig.m */,
+			);
+			path = ZYZTestCT;
+			sourceTree = "<group>";
+		};
+		C56C95041ADCEDD300609722 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C56C952D1ADCEDE600609722 /* CoreText.framework */,
+				C56C95051ADCEDD300609722 /* Info.plist */,
+				C56C95061ADCEDD300609722 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C56C95201ADCEDD300609722 /* ZYZTestCTTests */ = {
+			isa = PBXGroup;
+			children = (
+				C56C95231ADCEDD300609722 /* ZYZTestCTTests.m */,
+				C56C95211ADCEDD300609722 /* Supporting Files */,
+			);
+			path = ZYZTestCTTests;
+			sourceTree = "<group>";
+		};
+		C56C95211ADCEDD300609722 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C56C95221ADCEDD300609722 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C56C95001ADCEDD300609722 /* ZYZTestCT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C56C95271ADCEDD300609722 /* Build configuration list for PBXNativeTarget "ZYZTestCT" */;
+			buildPhases = (
+				C56C94FD1ADCEDD300609722 /* Sources */,
+				C56C94FE1ADCEDD300609722 /* Frameworks */,
+				C56C94FF1ADCEDD300609722 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYZTestCT;
+			productName = ZYZTestCT;
+			productReference = C56C95011ADCEDD300609722 /* ZYZTestCT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C56C951C1ADCEDD300609722 /* ZYZTestCTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C56C952A1ADCEDD300609722 /* Build configuration list for PBXNativeTarget "ZYZTestCTTests" */;
+			buildPhases = (
+				C56C95191ADCEDD300609722 /* Sources */,
+				C56C951A1ADCEDD300609722 /* Frameworks */,
+				C56C951B1ADCEDD300609722 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C56C951F1ADCEDD300609722 /* PBXTargetDependency */,
+			);
+			name = ZYZTestCTTests;
+			productName = ZYZTestCTTests;
+			productReference = C56C951D1ADCEDD300609722 /* ZYZTestCTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C56C94F91ADCEDD300609722 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = yinzezhang;
+				TargetAttributes = {
+					C56C95001ADCEDD300609722 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					C56C951C1ADCEDD300609722 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = C56C95001ADCEDD300609722;
+					};
+				};
+			};
+			buildConfigurationList = C56C94FC1ADCEDD300609722 /* Build configuration list for PBXProject "ZYZTestCT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C56C94F81ADCEDD300609722;
+			productRefGroup = C56C95021ADCEDD300609722 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C56C95001ADCEDD300609722 /* ZYZTestCT */,
+				C56C951C1ADCEDD300609722 /* ZYZTestCTTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C56C94FF1ADCEDD300609722 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56C95131ADCEDD300609722 /* Main.storyboard in Resources */,
+				C56C95181ADCEDD300609722 /* LaunchScreen.xib in Resources */,
+				C56C95151ADCEDD300609722 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56C951B1ADCEDD300609722 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C56C94FD1ADCEDD300609722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56C95341ADD0EBA00609722 /* CTData.m in Sources */,
+				C56C950D1ADCEDD300609722 /* ZYZTestCT.xcdatamodeld in Sources */,
+				C56C953A1ADD0EE700609722 /* CTFrameConfig.m in Sources */,
+				C56C950A1ADCEDD300609722 /* AppDelegate.m in Sources */,
+				C56C95101ADCEDD300609722 /* ViewController.m in Sources */,
+				C56C95071ADCEDD300609722 /* main.m in Sources */,
+				C56C95371ADD0ED400609722 /* CTFrameParserConfig.m in Sources */,
+				C56C95311ADCEE6700609722 /* CTDislayView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56C95191ADCEDD300609722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56C95241ADCEDD300609722 /* ZYZTestCTTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C56C951F1ADCEDD300609722 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C56C95001ADCEDD300609722 /* ZYZTestCT */;
+			targetProxy = C56C951E1ADCEDD300609722 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C56C95111ADCEDD300609722 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C56C95121ADCEDD300609722 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C56C95161ADCEDD300609722 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C56C95171ADCEDD300609722 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C56C95251ADCEDD300609722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C56C95261ADCEDD300609722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C56C95281ADCEDD300609722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: junyi cai (QZXB8YUJG2)";
+				INFOPLIST_FILE = ZYZTestCT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4872cb39-9633-4986-9dd5-9028aee64e2b";
+			};
+			name = Debug;
+		};
+		C56C95291ADCEDD300609722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: junyi cai (QZXB8YUJG2)";
+				INFOPLIST_FILE = ZYZTestCT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4872cb39-9633-4986-9dd5-9028aee64e2b";
+			};
+			name = Release;
+		};
+		C56C952B1ADCEDD300609722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZYZTestCTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYZTestCT.app/ZYZTestCT";
+			};
+			name = Debug;
+		};
+		C56C952C1ADCEDD300609722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZYZTestCTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYZTestCT.app/ZYZTestCT";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C56C94FC1ADCEDD300609722 /* Build configuration list for PBXProject "ZYZTestCT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C56C95251ADCEDD300609722 /* Debug */,
+				C56C95261ADCEDD300609722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C56C95271ADCEDD300609722 /* Build configuration list for PBXNativeTarget "ZYZTestCT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C56C95281ADCEDD300609722 /* Debug */,
+				C56C95291ADCEDD300609722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C56C952A1ADCEDD300609722 /* Build configuration list for PBXNativeTarget "ZYZTestCTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C56C952B1ADCEDD300609722 /* Debug */,
+				C56C952C1ADCEDD300609722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C56C950B1ADCEDD300609722 /* ZYZTestCT.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C56C950C1ADCEDD300609722 /* ZYZTestCT.xcdatamodel */,
+			);
+			currentVersion = C56C950C1ADCEDD300609722 /* ZYZTestCT.xcdatamodel */;
+			path = ZYZTestCT.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C56C94F91ADCEDD300609722 /* Project object */;
+}
