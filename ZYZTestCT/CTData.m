@@ -10,4 +10,17 @@
 
 @implementation CTData
 
+-(void)dealloc{
+    CFRelease(_frame);
+}
+
+-(void)setFrame:(CTFrameRef )frame{
+    if (_frame != frame) {
+        if (_frame != NULL) {
+            CFRelease(_frame);
+        }
+        _frame = CFRetain(frame);
+    }
+}
+
 @end

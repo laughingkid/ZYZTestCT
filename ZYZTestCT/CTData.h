@@ -11,7 +11,7 @@
 
 @interface CTData : NSObject
 
-@property(nonatomic,assign)CTFrameRef* frame;
+@property(nonatomic,assign)CTFrameRef frame;
 @property(nonatomic,assign)CGFloat height;
 
 @end

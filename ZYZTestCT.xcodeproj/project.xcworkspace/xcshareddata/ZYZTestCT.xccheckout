@@ -7,25 +7,29 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>BAF65F27-AA6B-4C07-9053-D0581CF086A4</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>ZYZTestCT</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>4BDDA7AE91434E5487BFBC36E4625574944E2359</key>
 		<string>https://github.com/laughingkid/DailyTestCoreData.git</string>
+		<key>7BA5680587614A41548D073882AE39052F20C26C</key>
+		<string>https://github.com/laughingkid/ZYZTestCT.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ZYZTestCT/ZYZTestCT.xcodeproj/project.xcworkspace</string>
+	<string>ZYZTestCT.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>4BDDA7AE91434E5487BFBC36E4625574944E2359</key>
 		<string>../../..</string>
+		<key>7BA5680587614A41548D073882AE39052F20C26C</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/laughingkid/DailyTestCoreData.git</string>
+	<string>https://github.com/laughingkid/ZYZTestCT.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>4BDDA7AE91434E5487BFBC36E4625574944E2359</string>
+	<string>7BA5680587614A41548D073882AE39052F20C26C</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -34,7 +38,15 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>4BDDA7AE91434E5487BFBC36E4625574944E2359</string>
 			<key>IDESourceControlWCCName</key>
-			<string>DailyTest</string>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7BA5680587614A41548D073882AE39052F20C26C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ZYZTestCT</string>
 		</dict>
 	</array>
 </dict>

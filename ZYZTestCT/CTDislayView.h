@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CTData.h"
 
 @interface CTDislayView : UIView
+
+@property(nonatomic,retain)CTData*  data;
 
 @end

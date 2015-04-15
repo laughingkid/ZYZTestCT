@@ -18,7 +18,7 @@
 		C56C952E1ADCEDE600609722 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56C952D1ADCEDE600609722 /* CoreText.framework */; };
 		C56C95311ADCEE6700609722 /* CTDislayView.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C95301ADCEE6700609722 /* CTDislayView.m */; };
 		C56C95341ADD0EBA00609722 /* CTData.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C95331ADD0EBA00609722 /* CTData.m */; };
-		C56C95371ADD0ED400609722 /* CTFrameParserConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C95361ADD0ED400609722 /* CTFrameParserConfig.m */; };
+		C56C95371ADD0ED400609722 /* CTFrameParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C95361ADD0ED400609722 /* CTFrameParser.m */; };
 		C56C953A1ADD0EE700609722 /* CTFrameConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C95391ADD0EE700609722 /* CTFrameConfig.m */; };
 /* End PBXBuildFile section */
 
@@ -52,8 +52,8 @@
 		C56C95301ADCEE6700609722 /* CTDislayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTDislayView.m; sourceTree = "<group>"; };
 		C56C95321ADD0EBA00609722 /* CTData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTData.h; sourceTree = "<group>"; };
 		C56C95331ADD0EBA00609722 /* CTData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTData.m; sourceTree = "<group>"; };
-		C56C95351ADD0ED400609722 /* CTFrameParserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTFrameParserConfig.h; sourceTree = "<group>"; };
-		C56C95361ADD0ED400609722 /* CTFrameParserConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTFrameParserConfig.m; sourceTree = "<group>"; };
+		C56C95351ADD0ED400609722 /* CTFrameParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTFrameParser.h; sourceTree = "<group>"; };
+		C56C95361ADD0ED400609722 /* CTFrameParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTFrameParser.m; sourceTree = "<group>"; };
 		C56C95381ADD0EE700609722 /* CTFrameConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTFrameConfig.h; sourceTree = "<group>"; };
 		C56C95391ADD0EE700609722 /* CTFrameConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTFrameConfig.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,8 +111,8 @@
 				C56C95301ADCEE6700609722 /* CTDislayView.m */,
 				C56C95321ADD0EBA00609722 /* CTData.h */,
 				C56C95331ADD0EBA00609722 /* CTData.m */,
-				C56C95351ADD0ED400609722 /* CTFrameParserConfig.h */,
-				C56C95361ADD0ED400609722 /* CTFrameParserConfig.m */,
+				C56C95351ADD0ED400609722 /* CTFrameParser.h */,
+				C56C95361ADD0ED400609722 /* CTFrameParser.m */,
 				C56C95381ADD0EE700609722 /* CTFrameConfig.h */,
 				C56C95391ADD0EE700609722 /* CTFrameConfig.m */,
 			);
@@ -252,7 +252,7 @@
 				C56C950A1ADCEDD300609722 /* AppDelegate.m in Sources */,
 				C56C95101ADCEDD300609722 /* ViewController.m in Sources */,
 				C56C95071ADCEDD300609722 /* main.m in Sources */,
-				C56C95371ADD0ED400609722 /* CTFrameParserConfig.m in Sources */,
+				C56C95371ADD0ED400609722 /* CTFrameParser.m in Sources */,
 				C56C95311ADCEE6700609722 /* CTDislayView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -454,6 +454,7 @@
 				C56C95291ADCEDD300609722 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C56C952A1ADCEDD300609722 /* Build configuration list for PBXNativeTarget "ZYZTestCTTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +463,7 @@
 				C56C952C1ADCEDD300609722 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
