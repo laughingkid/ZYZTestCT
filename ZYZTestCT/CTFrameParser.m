@@ -41,30 +41,65 @@
 
 
 +(CTData*)parserAttributeString:(NSAttributedString *)attributString config:(CTFrameConfig *)config numOfLines:(NSInteger)lines{
+    
+//    NSDictionary* attributes = [[self class] attributesWithConfig:config];
+    
+    //创建 framesetter
     CTFramesetterRef theFrameSetter = CTFramesetterCreateWithAttributedString((CFAttributedStringRef)attributString);
+
+    
+    CGRect rc = CGRectZero;
+    
+    CFRange range = CFRangeMake(0, 0);
+    
+    CTFrameRef frameRef;
+    
+    if (lines == 1) {
+        rc.size = CGSizeMake(CGFLOAT_MAX, CGFLOAT_MAX);
+    }else{
+        rc.size = CGSizeMake(config.width, CGFLOAT_MAX);
+        
+        CGMutablePathRef path = CGPathCreateMutable();
+        CGPathAddRect(path, NULL, rc);
+        
+        //创建 CTFrame
+        frameRef = CTFramesetterCreateFrame(theFrameSetter, CFRangeMake(0, 0), path, NULL);
+        
+        //    CGSize size = CGSizeMake(config.width, CGFLOAT_MAX);
+        CFArrayRef lineArray = CTFrameGetLines(frameRef);
+        
+        if (lineArray != nil && CFArrayGetCount(lineArray) > 0) {
+            NSInteger lastVisibleLineIndex = MIN(lines, CFArrayGetCount(lineArray)) - 1;
+            CTLineRef lastVisibleLine = CFArrayGetValueAtIndex(lineArray, lastVisibleLineIndex);
+            
+            CFRange rangToLayout = CTLineGetStringRange(lastVisibleLine);
+            range = CFRangeMake(0, rangToLayout.location + rangToLayout.length);
+            
+        }
+       
+        CFRelease(path);
+        CFRelease(frameRef);
+    }
     
     
-    
-    
-    
-//    CFArrayRef lines = CTFrameGetLines(CTFrameRef frame)
-    
-    //
-    CGSize size = CGSizeMake(config.width, CGFLOAT_MAX);
-    CGSize coreTextSize = CTFramesetterSuggestFrameSizeWithConstraints(theFrameSetter, CFRangeMake(0, 0), NULL, size, nil);
+    CGSize coreTextSize = CTFramesetterSuggestFrameSizeWithConstraints(theFrameSetter, range, NULL, rc.size, nil);
     CGFloat textHeight = coreTextSize.height;
-    
-    
     //生成CTFrame实例
-    CTFrameRef frameRef = [self createFrameWithFramesetter:theFrameSetter conig:config height:textHeight];
+//    CTFrameRef frameRef = [self createFrameWithFramesetter:theFrameSetter conig:config height:textHeight];
+    
+    CGMutablePathRef pathToDisplay = CGPathCreateMutable();
+    CGPathAddRect(pathToDisplay, NULL, CGRectMake(0, 0, config.width, textHeight));
+    
+    CTFrameRef frameToDisplay = CTFramesetterCreateFrame(theFrameSetter, range, pathToDisplay, NULL);
     
     //创建CTData
     CTData* data = [[CTData alloc] init];
-    data.frame = frameRef;
+    data.frame = frameToDisplay;
     data.height = textHeight;
     
-    CFRelease(frameRef);
+    CFRelease(frameToDisplay);
     CFRelease(theFrameSetter);
+    CFRelease(pathToDisplay);
     
     return data;
 

@@ -37,9 +37,10 @@
     
     [attributeString addAttribute:(id)kCTForegroundColorAttributeName value:[UIColor blackColor] range:NSMakeRange(0, 5)];
     [attributeString addAttribute:(id)kCTStrokeWidthAttributeName value:[NSNumber numberWithInt:3.f] range:NSMakeRange(0, 5)];
+    [attributeString addAttribute:(id)kCTFontAttributeName value:[UIFont systemFontOfSize:17] range:NSMakeRange(0, attributeString.length)];
     
-    CTData* data = [CTFrameParser parserAttributeString:attributeString config:config];
-    
+//    CTData* data = [CTFrameParser parserAttributeString:attributeString config:config];
+    CTData* data = [CTFrameParser parserAttributeString:attributeString config:config numOfLines:5];
     
     CTDislayView* displayView = [[CTDislayView alloc] initWithFrame:CGRectMake(100,200, 100, data.height)];
     displayView.backgroundColor = [[UIColor redColor] colorWithAlphaComponent:0.5f];
